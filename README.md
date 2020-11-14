@@ -13,7 +13,7 @@
  root.resizable(False, False)
  root.geometry("750x510")
  
- # create Frame for tabs
+ # create Frame for tab windows
  main_frame = Frame(root, bg="grey", width=1000, height=1000)
  main_frame.place(x=200, y=0)
 
