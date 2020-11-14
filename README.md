@@ -34,5 +34,5 @@
  ```
  
  SideBar.add_button(Text, class in TkinterSidebar.pages.display_pages, icon=.png(downscaled to 20x20 pixels), tab=(True, False))
- SideBar.add_spacer(Text)
+ SideBar.add_spacer(Text)\n
  SideBar.finish() activates scrolling if enough items are in the Sidebar
