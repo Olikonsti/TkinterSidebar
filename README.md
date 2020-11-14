@@ -33,4 +33,4 @@
  root.mainloop()
  ```
  
- SideBar.add_button(<Name>, )
+ SideBar.add_button(Text, class in TkinterSidebar.pages.display_pages, icon=.png(downscaled to 20x20 pixels), tab=(True, False) )
