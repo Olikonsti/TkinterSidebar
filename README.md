@@ -7,7 +7,7 @@
  ```
 ## Usage
 
- ```
+ ```python
  root = Tk()	# create Window
  
  root.resizable(False, False)
