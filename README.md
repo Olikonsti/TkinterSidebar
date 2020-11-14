@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/Olikonsti/TkinterSidebar/main/preview.png)
 # TkinterSidebar
  Modern Dark Tkinter Sidebar Library
 ## Importing
