@@ -1,7 +1,8 @@
 # TkinterSidebar
  Modern Dark Tkinter Sidebar Library
 ## Importing
- ```from TkinterSidebar.sidebar import *
+ ```
+ from TkinterSidebar.sidebar import *
  from TkinterSidebar.pages.display_pages import *
  ```
 ## Usage
