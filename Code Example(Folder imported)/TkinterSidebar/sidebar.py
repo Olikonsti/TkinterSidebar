@@ -38,7 +38,7 @@ class Spacer(Canvas):
         Canvas.__init__(self, parent, width=199, height=35, bg=self.frame_color, highlightthickness=1, highlightbackground=self.frame_color, *args, **kwargs)
         self.pack()
 
-        self.text = Label(self, text=text, bg=self.frame_color, font="Verdana 9 bold", fg="lightgrey")
+        self.text = Label(self, text=text, bg=self.frame_color, font="Arial 9 bold", fg="lightgrey")
         self.text.place(x=3, y=12)
 
         ScrollOnItemsList.append(self)
@@ -74,7 +74,7 @@ class SideBarButton(Canvas):
             self.icon = Sprite(icon, 20, 20)
             self.create_image(20, 20, image=self.icon)
 
-        self.text = Label(self, text=text, font="Verdana 9", bg=self.frame_color, fg="lightgrey")
+        self.text = Label(self, text=text, font="Arial 9", bg=self.frame_color, fg="lightgrey")
         self.text.place(x=40, y=10)
 
         self.bind('<Enter>', self.hover)
